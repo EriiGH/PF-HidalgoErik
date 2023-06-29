@@ -68,8 +68,10 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
+
+
 
 .textoDestacados {
 
@@ -93,9 +95,6 @@ h2 {
     text-align: right;
 }
 
-.hola {
-    background-color: blueviolet;
-}
 
 
 footer {
@@ -136,14 +135,17 @@ footer div a {
 }
 
 .carrouselImg {
-    margin: 0 auto 90px;
+    margin: 0 auto 130px;
 }
 
 .carrouselText {
-    background-color: blanchedalmond;
+    background-color: rgba(64, 199, 11, 0.377);
     color: black;
+    font-size: 1.8rem;
+
 
 }
+
 
 .carrouselSection {
     padding: 10px;
@@ -167,7 +169,7 @@ footer div a {
 }
 
 .navContainer li a:hover {
-    color: #fff !important;
+    color: #fff;
 }
 
 .navContainer li a:hover {
@@ -181,11 +183,12 @@ footer div a {
     }
 } */
 
-@media (max-width:992px) {
+@media (max-width:768px) {
     footer {
         flex-direction: column;
     }
-    .redes{
+
+    .redes {
 
         position: absolute;
         display: flex;
@@ -194,9 +197,61 @@ footer div a {
         top: 50px;
     }
 
-    .footerAlineacion{
+    .footerAlineacion {
         width: 50%;
 
     }
 }
 
+@media (max-width:480px) {
+    footer {
+        flex-direction: column;
+        font-size: 1.3rem;
+    }
+
+    .redes {
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 35px;
+        top: 100px;
+
+    }
+
+    .tituloTamaño {
+        font-size: 3rem;
+    }
+
+    .footerAlineacion {
+        width: 50%;
+
+    }
+}
+
+@media (max-width:320px) {
+    footer {
+        flex-direction: column;
+        font-size: 1.1rem;
+
+    }
+
+    .redes {
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 30px;
+        top: 100px;
+
+    }
+
+    .tituloTamaño {
+        font-size: 2rem;
+    }
+
+    .footerAlineacion {
+        width: 50%;
+
+    }
+}
