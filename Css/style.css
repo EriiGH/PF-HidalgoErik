@@ -36,7 +36,6 @@ html {
 .portada img {
 
     width: 100%;
-    height: 300px;
 }
 
 
@@ -159,7 +158,7 @@ footer div a {
     display: flex;
     align-items: center;
     max-width: 100%;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .clientes img {
@@ -183,7 +182,17 @@ footer div a {
     }
 } */
 
+.hola {
+    width: 50px;
+    height: 50px;
+}
+
 @media (max-width:768px) {
+
+   .tamañoDestacado{
+    font-size:  4rem; 
+   }
+
     footer {
         flex-direction: column;
     }
@@ -193,8 +202,21 @@ footer div a {
         position: absolute;
         display: flex;
         flex-direction: column;
-        left: 50px;
-        top: 50px;
+        left: 80px;
+        top: 100px;
+    }
+
+
+    
+    .whatsapp{
+        width: 60px;
+        height: 60px;
+    }
+
+    footer svg {
+
+        width: 500px;
+        height: 500px;
     }
 
     .footerAlineacion {
@@ -203,7 +225,14 @@ footer div a {
     }
 }
 
+
+
 @media (max-width:480px) {
+
+    .tamañoDestacado{
+        font-size:  3rem; 
+       }
+
     footer {
         flex-direction: column;
         font-size: 1.3rem;
@@ -214,9 +243,19 @@ footer div a {
         position: absolute;
         display: flex;
         flex-direction: column;
-        left: 35px;
-        top: 100px;
+        left: 50px;
+        top: 110px;
 
+    }
+
+    .hola {
+        width: 35x;
+        height: 35px;
+    }
+
+    .whatsapp{
+        width: 40px;
+        height: 40px;
     }
 
     .tituloTamaño {
@@ -230,6 +269,11 @@ footer div a {
 }
 
 @media (max-width:320px) {
+
+    .tamañoDestacado{
+        font-size:  2rem; 
+       }
+
     footer {
         flex-direction: column;
         font-size: 1.1rem;
@@ -244,6 +288,11 @@ footer div a {
         left: 30px;
         top: 100px;
 
+    }
+
+    .whatsapp{
+        width: 30px;
+        height: 30px;
     }
 
     .tituloTamaño {
