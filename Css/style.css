@@ -311,4 +311,16 @@ footer div a {
     }
 }
 
+form label{
+    display: flex;
+    font-size: 1.5rem;
+    
+}
 
+.formMod{
+
+    background-color: rgba(241, 179, 63, 0.5);
+    font-size: 1.5rem;
+    padding: 20px;
+    
+}
