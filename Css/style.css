@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+.botonera img {
+    width: 70px;
+    height: auto;
+}
+
+.botonera {
+    background-color: rgba(11, 105, 2, 0.938);
+    font-size: 2rem;
+}
+
+.botoneraDesplegable {
+
+    font-size: 1.6rem;
+}
+
+
+.botonera a {
+    color: black;
+
+}
+
+.portada img {
+
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.tamañoLetraBuscador {
+    font-size: 1.5rem;
+}
+
+.buscador {
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+}
+
+.ph {
+
+    width: 500px;
+    height: auto;
+}
+
+.formulario {
+    display: inline-block;
+}
+
+h1 {
+
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.textoDestacados {
+
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hola {
+    background-color: blueviolet;
+}
+
+
+footer {
+    background-color: rgba(11, 105, 2, 0.938);
+    display: flex;
+    color: white;
+    font-size: 1.8rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    position: relative;
+
+}
+
+footer div a {
+    color: white;
+}
+
+.whatsapp {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    fill: black;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.cartas {
+    font-size: 1.5rem;
+
+}
+
+.card img {
+    width: auto;
+    height: 350px;
+}
+
+.carrouselImg {
+    margin: 0 auto 90px;
+}
+
+.carrouselText {
+    background-color: blanchedalmond;
+    color: black;
+
+}
+
+.carrouselSection {
+    padding: 10px;
+}
+
+.carrito {
+    margin: 10px;
+}
+
+.clientes {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: scroll;
+}
+
+.clientes img {
+
+    margin: 30px;
+    padding: 30px;
+}
+
+.navContainer li a:hover {
+    color: #fff !important;
+}
+
+.navContainer li a:hover {
+    transition-duration: 400ms;
+
+}
+
+/* @media (min-width:1200px) {
+    .carrouselSection{
+        background-color: red;
+    }
+} */
+
+@media (max-width:992px) {
+    footer {
+        flex-direction: column;
+    }
+    .redes{
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 50px;
+        top: 50px;
+    }
+
+    .footerAlineacion{
+        width: 50%;
+
+    }
+}
+
