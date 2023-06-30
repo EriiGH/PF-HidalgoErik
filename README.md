@@ -1,6 +1,6 @@
 # Repo_2
-Fruticola
+Fruticola EH
 
 deployment https://eriigh.github.io/PreEntrega2-HidalgoErik/
 
-repo 
+repo https://github.com/EriiGH/PreEntrega2-HidalgoErik.git
