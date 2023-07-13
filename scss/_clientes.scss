@@ -1,0 +1,14 @@
+//Arranca Clientes
+
+
+.clientes {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: scroll;
+
+    img{
+        margin: 30px;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,23 @@
+//Mixins
+
+.boton-cartas{
+
+    display: flex;
+    background-color: $colorFondo;
+    justify-content: center;
+
+}
+
+.boton-mod{
+    @extend .boton-cartas;
+    border-radius: 15px;
+}
+
+
+//mixin
+@mixin  textosCartas ($size,$line,$color){
+
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+}

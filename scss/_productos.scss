@@ -1,0 +1,21 @@
+//Arranca Productos
+
+.cartas {
+    font-size: 1.5rem;
+}
+
+.card img {
+    width: auto;
+    height: 350px;
+}
+
+.centrarImgServicios {
+    display: flex;
+    justify-content: center;
+
+}
+
+.textoProductos{
+
+    @include textosCartas(1.9rem, 2.1rem, $letraCarta);
+}

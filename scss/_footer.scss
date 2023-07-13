@@ -1,0 +1,135 @@
+//Arranca el footer
+
+footer {
+    
+    background: $mainColor;
+    background: radial-gradient(circle, $secondaryColor 0%, $mainColor 100%);
+    display: flex;
+    color: $white;
+    font-size: 1.8rem;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    position: relative;
+    gap: 25px;
+
+    .redes{
+        display: flex;
+        gap: 5px;
+    }
+
+    @media (max-width:768px) {
+
+
+
+        flex-direction: column;
+
+
+        svg {
+
+            width: 500px;
+            height: 500px;
+        }
+
+        .footerAlineacion {
+            width: 50%;
+
+        }
+
+        .whatsapp {
+            width: 60px;
+            height: 60px;
+
+        }
+
+        .redes {
+
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left: 80px;
+            top: 100px;
+        }
+    }
+
+
+
+    @media (max-width:480px) {
+
+            flex-direction: column;
+            font-size: 1.3rem;
+        
+
+        .redes {
+
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left: 50px;
+            top: 110px;
+
+        }
+
+        .hola {
+            width: 35x;
+            height: 35px;
+        }
+
+        .whatsapp {
+            width: 40px;
+            height: 40px;
+        }
+
+        .footerAlineacion {
+            width: 50%;
+
+        }
+    }
+
+    @media (max-width:320px) {
+
+
+            flex-direction: column;
+            font-size: 1.1rem;
+
+        
+
+        .redes {
+
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            left: 30px;
+            top: 100px;
+        }
+    }
+
+    div {
+        a {
+            color: $white;
+        }
+    }
+
+}
+
+.footerAlineacion {
+    width: 50%;
+}
+
+.whatsapp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    fill: $black;
+    right: 20px;
+    bottom: 20px;
+
+
+}
+
+.hola {
+    width: 50px;
+    height: 50px;
+}
+
+

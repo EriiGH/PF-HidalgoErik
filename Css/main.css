@@ -1,0 +1,376 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.boton-cartas, .boton-mod {
+  display: flex;
+  background-color: rgb(11, 94, 0);
+  justify-content: center;
+}
+
+.boton-mod {
+  border-radius: 15px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.textoDestacados {
+  font-size: 1.5rem;
+}
+
+.tituloTamaño {
+  font-size: 2rem;
+}
+
+.carrouselImg {
+  margin: 0 auto 130px;
+}
+
+.carrouselText {
+  background-color: rgba(64, 199, 11, 0.377);
+  color: rgb(29, 29, 29);
+  font-size: 1.8rem;
+}
+
+.carrouselSection {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .tamañoDestacado {
+    font-size: 4rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 480px) {
+  .tamañoDestacado {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .tituloTamaño {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 320px) {
+  .tamañoDestacado {
+    font-size: 2rem;
+  }
+}
+.botonera {
+  background: rgb(22, 131, 0);
+  background: radial-gradient(circle, rgb(32, 190, 0) 0%, rgb(22, 131, 0) 100%);
+}
+.botonera img {
+  width: 70px;
+  height: auto;
+}
+.botonera a {
+  color: rgb(29, 29, 29);
+}
+.botonera ul li a {
+  font-size: 1.8rem;
+}
+.botonera ul li a:hover {
+  color: rgb(252, 231, 231);
+  transition-duration: 400ms;
+}
+
+.botoneraDesplegable {
+  font-size: 1.6rem;
+}
+
+.tamañoLetraBuscador {
+  font-size: 1.5rem;
+}
+
+.buscador {
+  border: none;
+  color: rgb(252, 231, 231);
+  background-color: rgb(29, 29, 29);
+  font-size: 1.5rem;
+}
+
+.ph {
+  width: 500px;
+  height: auto;
+}
+
+.carrito {
+  margin: 10px;
+}
+
+.portada img {
+  width: 100%;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.loading-circle {
+  /* We need ‘linear’ for smooth transition */
+  animation: bounce 2s infinite ease-in-out alternate;
+}
+
+footer {
+  background: rgb(22, 131, 0);
+  background: radial-gradient(circle, rgb(32, 190, 0) 0%, rgb(22, 131, 0) 100%);
+  display: flex;
+  color: rgb(252, 231, 231);
+  font-size: 1.8rem;
+  align-items: center;
+  padding-right: 60px;
+  padding-left: 60px;
+  position: relative;
+  gap: 25px;
+}
+footer .redes {
+  display: flex;
+  gap: 5px;
+}
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+  footer svg {
+    width: 500px;
+    height: 500px;
+  }
+  footer .footerAlineacion {
+    width: 50%;
+  }
+  footer .whatsapp {
+    width: 60px;
+    height: 60px;
+  }
+  footer .redes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 80px;
+    top: 100px;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
+  footer .redes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50px;
+    top: 110px;
+  }
+  footer .hola {
+    width: 35x;
+    height: 35px;
+  }
+  footer .whatsapp {
+    width: 40px;
+    height: 40px;
+  }
+  footer .footerAlineacion {
+    width: 50%;
+  }
+}
+@media (max-width: 320px) {
+  footer {
+    flex-direction: column;
+    font-size: 1.1rem;
+  }
+  footer .redes {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    top: 100px;
+  }
+}
+footer div a {
+  color: rgb(252, 231, 231);
+}
+
+.footerAlineacion {
+  width: 50%;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  fill: rgb(29, 29, 29);
+  right: 20px;
+  bottom: 20px;
+}
+
+.hola {
+  width: 50px;
+  height: 50px;
+}
+
+.clientes {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+.clientes img {
+  margin: 30px;
+  padding: 30px;
+}
+
+.formIframe {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.formulario {
+  display: inline-block;
+}
+
+form label {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.formMod {
+  font-size: 1.5rem;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contactMain {
+  background-color: rgba(241, 179, 63, 0.5);
+}
+
+.grid-gallery {
+  display: grid;
+  grid-auto-rows: 200px;
+  gap: 1rem;
+  grid-auto-flow: row dense;
+  padding: 10px;
+}
+.grid-gallery a img {
+  border: solid 1px #000;
+}
+
+@media all and (min-width: 320px) {
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (min-width: 1024px) {
+  .grid-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+.grid-gallery__item:nth-child(11n+1) {
+  grid-column: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+4) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+6) {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+
+.grid-gallery__item:nth-child(11n+7) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.grid-gallery__item:nth-child(11n+8) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-gallery__item:nth-child(11n+9) {
+  grid-row: span 3;
+}
+
+.grid-gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.letraNostros {
+  padding: 20px;
+}
+
+.cartas {
+  font-size: 1.5rem;
+}
+
+.card img {
+  width: auto;
+  height: 350px;
+}
+
+.centrarImgServicios {
+  display: flex;
+  justify-content: center;
+}
+
+.textoProductos {
+  font-size: 1.9rem;
+  line-height: 2.1rem;
+  color: rgba(68, 0, 255, 0.938);
+}
+
+/*# sourceMappingURL=main.css.map */

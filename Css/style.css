@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-* {
+/* * {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
@@ -12,35 +12,28 @@ html {
 
 }
 
-.botonera img {
-    width: 70px;
-    height: auto;
-}
-
 .botonera {
     background-color: rgba(11, 105, 2, 0.938);
     font-size: 2rem;
 }
 
-.botoneraDesplegable {
-
-    font-size: 1.6rem;
+.botonera img {
+    width: 70px;
+    height: auto;
 }
 
 
 .botonera a {
     color: black;
 
-}
+} */
 
-.portada img {
+/* .botoneraDesplegable {
 
-    width: 100%;
-}
+    font-size: 1.6rem;
+} */
 
-
-
-.tamañoLetraBuscador {
+/* .tamañoLetraBuscador {
     font-size: 1.5rem;
 }
 
@@ -55,34 +48,32 @@ html {
 
     width: 500px;
     height: auto;
+} */
+
+/* .navContainer li a:hover {
+    color: #fff;
 }
 
-.formulario {
-    display: inline-block;
-}
+.navContainer li a:hover {
+    transition-duration: 400ms;
 
-h1 {
+} */
+
+/* h1 {
 
     font-size: 6rem;
 }
 
 h2 {
     font-size: 4rem;
-}
+} */
 
+/* .portada img {
 
+    width: 100%;
+} */
 
-.textoDestacados {
-
-    font-size: 1.5rem;
-
-}
-
-
-
-
-
-.text-left {
+/* .text-left {
     text-align: left;
 }
 
@@ -92,11 +83,16 @@ h2 {
 
 .text-right {
     text-align: right;
-}
+} */
 
 
+/* .textoDestacados {
 
-footer {
+    font-size: 1.5rem;
+
+} */
+
+/* footer {
     background-color: rgba(11, 105, 2, 0.938);
     display: flex;
     color: white;
@@ -111,9 +107,9 @@ footer {
 
 footer div a {
     color: white;
-}
+} */
 
-.whatsapp {
+/* .whatsapp {
     position: fixed;
     width: 80px;
     height: 80px;
@@ -121,16 +117,10 @@ footer div a {
     right: 20px;
     bottom: 20px;
 
-}
+} */
 
-.cartas {
-    font-size: 1.5rem;
-
-}
-
-.card img {
-    width: auto;
-    height: 350px;
+/* .formulario {
+    display: inline-block;
 }
 
 .carrouselImg {
@@ -152,9 +142,28 @@ footer div a {
 
 .carrito {
     margin: 10px;
+} */
+
+
+/* .cartas {
+    font-size: 1.5rem;
+
 }
 
-.clientes {
+.card img {
+    width: auto;
+    height: 350px;
+}
+
+.centrarImgServicios {
+    display: flex;
+    justify-content: center;
+
+} */
+
+
+
+/* .clientes {
     display: flex;
     align-items: center;
     max-width: 100%;
@@ -165,47 +174,35 @@ footer div a {
 
     margin: 30px;
     padding: 30px;
-}
-
-.navContainer li a:hover {
-    color: #fff;
-}
-
-.navContainer li a:hover {
-    transition-duration: 400ms;
-
-}
+} */
 
 
 
-.centrarImgServicios {
-    display: flex;
-    justify-content: center;
 
-}
 
-.hola {
+
+
+/* .hola {
     width: 50px;
     height: 50px;
-}
+} */
 
-.letraNostros {
-
+/* .letraNostros {
     padding: 20px;
-}
+} */
 
-.formIframe {
+/* .formIframe {
     display: flex;
     gap: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
-.contactMain {
+/* .contactMain {
     background-color: rgba(241, 179, 63, 0.5);
-}
+} */
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
 
     .tamañoDestacado {
         font-size: 4rem;
@@ -319,34 +316,23 @@ footer div a {
         display: flex;
         flex-direction: column;
         left: 30px;
-        top: 100px;
+        top: 100px; 
 
-    }
+            }   
 
 
 
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
-    .whatsapp {
-        width: 30px;
-        height: 30px;
-    }
-
-    .tituloTamaño {
-        font-size: 2rem;
-    }
-
-    .footerAlineacion {
+   
+    /* .footerAlineacion {
         width: 50%;
 
-    }
+    } 
+    }*/
+
+/* .tituloTamaño {
+    font-size: 2rem;
 }
+
 
 form label {
     display: flex;
@@ -360,38 +346,11 @@ form label {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-/* .galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 80px 100px 50px;
-    gap: 10px;
-    grid-template-areas: 
-    "fotos1 fotos1 fotos1"
-    "fotos2 fotos3 fotos4"
-    "fotos4 fotos2 fotos2";
-
-}
-
-.galeria .foto1 {
-    grid-area: fotos1;
-}
-
-.galeria .foto2 {
-    grid-area: fotos2;
-}
-
-.galeria .foto3 {
-    grid-area: fotos3;
-}
-
-
-.galeria .foto4 {
-    grid-area: fotos4;
 } */
 
-.grid-gallery {
+
+
+/* .grid-gallery {
     display: grid;
     grid-auto-rows: 200px;
     gap: 1rem;
@@ -455,4 +414,4 @@ form label {
     width: 100%;
     height: 100%;
     object-fit: fill;
-}
+} */

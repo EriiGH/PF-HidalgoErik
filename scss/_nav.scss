@@ -1,0 +1,72 @@
+//Arranca el nav
+
+.botonera {
+
+    background: $mainColor;
+    background: radial-gradient(circle, $secondaryColor 0%, $mainColor 100%);
+
+    img {
+        width: 70px;
+        height: auto;
+    }
+
+    a {
+
+        color: $black;
+    }
+    
+    ul{
+        li{
+            a{
+                
+            font-size: $letraMd;
+
+                &:hover{
+                    color: $white;
+                    transition-duration: 400ms;
+                }
+            }
+        }
+    }
+}
+
+.botoneraDesplegable {
+
+    font-size: 1.6rem;
+}
+
+.tamañoLetraBuscador {
+    font-size: 1.5rem;
+}
+
+.buscador {
+    border: none;
+    color: $white;
+    background-color: $black;
+    font-size: 1.5rem;
+}
+
+.ph {
+
+    width: 500px;
+    height: auto;
+}
+
+.carrito {
+    margin: 10px;
+}
+
+.portada img {
+
+    width: 100%;
+}
+
+@keyframes bounce {
+    from { transform: scale(0.8); }
+    to   { transform: scale(1.2); }
+}
+
+.loading-circle {
+    /* We need ‘linear’ for smooth transition */
+    animation: bounce 2s infinite ease-in-out alternate;
+}

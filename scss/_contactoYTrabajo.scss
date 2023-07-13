@@ -1,0 +1,30 @@
+//Arranca Contacto y Trabajo
+
+.formIframe {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    display: inline-block;
+}
+
+form label {
+    display: flex;
+    font-size: 1.5rem;
+
+}
+
+.formMod {
+
+    font-size: 1.5rem;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contactMain {
+    background-color: $colorFormulario;
+}
