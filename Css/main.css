@@ -161,7 +161,7 @@ footer {
   font-size: 1.8rem;
   align-items: center;
   position: relative;
-  padding: 30px 50px 30px 50px;
+  padding: 30px 35px 30px 35px;
   gap: 25px;
   justify-content: space-between;
 }
@@ -182,8 +182,8 @@ footer .espaciadoRedes {
     flex-direction: column;
   }
   footer svg {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
   }
   footer .footerAlineacion {
     width: 50%;
@@ -213,7 +213,7 @@ footer .espaciadoRedes {
     top: 110px;
   }
   footer .mediaIcon {
-    width: 35x;
+    width: 35px;
     height: 35px;
   }
   footer .whatsapp {
@@ -234,7 +234,11 @@ footer .espaciadoRedes {
     display: flex;
     flex-direction: column;
     left: 30px;
-    top: 100px;
+    top: 170px;
+  }
+  footer .redes svg {
+    height: 35px;
+    width: 35px;
   }
 }
 footer div a {
