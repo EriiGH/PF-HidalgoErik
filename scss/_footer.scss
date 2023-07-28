@@ -9,14 +9,15 @@ footer {
     font-size: 1.8rem;
     align-items: center;
     position: relative;
-    padding: 30px 35px 30px 35px;
-    gap: 25px;
+    padding: 30px 65px 30px 65px;
+    gap: 5px;
     justify-content: space-between;
 
 
     .redes {
         display: flex;
         gap: 5px;
+        margin-left: 20px;
 
         svg {
             width: 50px;

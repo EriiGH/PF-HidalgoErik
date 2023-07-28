@@ -120,6 +120,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+.dropdown-menu {
+  background-color: grey;
+}
+
 .buscador {
   border: none;
   color: rgb(252, 231, 231);
@@ -149,7 +153,6 @@ h2 {
   }
 }
 .loading-circle {
-  /* We need ‘linear’ for smooth transition */
   animation: bounce 2s infinite ease-in-out alternate;
 }
 
@@ -161,13 +164,14 @@ footer {
   font-size: 1.8rem;
   align-items: center;
   position: relative;
-  padding: 30px 35px 30px 35px;
-  gap: 25px;
+  padding: 30px 65px 30px 65px;
+  gap: 5px;
   justify-content: space-between;
 }
 footer .redes {
   display: flex;
   gap: 5px;
+  margin-left: 20px;
 }
 footer .redes svg {
   width: 50px;
@@ -272,6 +276,10 @@ footer div a {
   flex-wrap: wrap;
 }
 
+.formBtn {
+  padding: 4px;
+}
+
 .formulario {
   display: inline-block;
 }
@@ -290,6 +298,11 @@ form label {
 
 .contactMain {
   background-color: rgba(241, 179, 63, 0.5);
+}
+
+.imgSize {
+  max-width: 70%;
+  border-radius: 10px;
 }
 
 .grid-gallery {

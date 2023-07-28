@@ -39,6 +39,10 @@
     font-size: 1.5rem;
 }
 
+.dropdown-menu{
+    background-color: $colorExpand;
+}
+
 .buscador {
     border: none;
     color: $white;
@@ -67,6 +71,5 @@
 }
 
 .loading-circle {
-    /* We need ‘linear’ for smooth transition */
     animation: bounce 2s infinite ease-in-out alternate;
 }

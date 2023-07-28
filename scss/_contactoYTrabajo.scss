@@ -7,6 +7,11 @@
     flex-wrap: wrap;
 }
 
+.formBtn{
+
+    padding: 4px;
+
+}
 .formulario {
     display: inline-block;
 }
@@ -27,4 +32,9 @@ form label {
 
 .contactMain {
     background-color: $colorFormulario;
+}
+
+.imgSize{
+    max-width: 70%;
+    border-radius:  10px;
 }
