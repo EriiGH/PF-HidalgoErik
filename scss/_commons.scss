@@ -41,6 +41,43 @@ h2 {
     font-size: 2rem;
 }
 
+.titulo404{
+    font-size: 5rem;
+    text-decoration: none;
+    color: $white;
+
+    &:hover{
+        color: $mainColor;
+        transition-duration: 200ms;
+    }
+}
+
+.modError {
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51 72 32);
+    height: 100vh;
+    width: 100%;
+}
+
+.fondoError {
+
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1280px;
+
+}
+
+.modLogo {
+
+    border-radius: 10px;
+}
 
 
 
